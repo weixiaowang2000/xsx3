@@ -41,3 +41,14 @@
     二）由暂存区返回到工作区 :  git reset HEAD 文件名
 
     三）撤消工作区的修改: git reset --hard commit_id
+
+
+四、分支管理
+
+   查看分支：git branch
+   创建分支：git branch 新分支名
+   切换分支：git checkout 要切换的分支
+   推送分支到远程：git push origin 要推送的分支  例如：git push origin dev
+   合并分支：git merge 要合并的分支
+
+
