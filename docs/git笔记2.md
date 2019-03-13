@@ -2,16 +2,16 @@
 
 ## git常用命令
 
-  查看状态：git status
-  添加： git add
-  提交： git commit  -m "备注"
-  推送到远程：git push -u origin master
-  拉取：git pull
+    查看状态：git status
+    添加： git add
+    提交： git commit  -m "备注"
+    推送到远程：git push -u origin master
+    拉取：git pull
 
 
 ## 删除远程添加的仓库地址
 
-  git remote rm origin
+     git remote rm origin
 
   
 
@@ -20,13 +20,20 @@
   一、如何查看commit_id:  
 
    查看日志：包括commit_id
+
     git log
 
     git reflog
 
 二、回退版本
-   1.如何回到过去: git reset --hard 过去的commit_id
-   2.如何展望未来：git reset --hard 未来的commit_id
+
+   1.如何回到过去: 
+   
+    git reset --hard 过去的commit_id
+
+   2.如何展望未来：
+   
+    git reset --hard 未来的commit_id
 
  三、工作区，暂存区的撤消：  
     一）放弃工作区修改: git checkout -- 文件
