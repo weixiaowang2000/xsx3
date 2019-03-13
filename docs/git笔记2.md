@@ -10,3 +10,27 @@
 
 
 ## 删除远程添加的仓库地址
+
+  git remote rm origin
+
+  
+
+## 回退版本
+
+  一、如何查看commit_id:  
+
+   查看日志：包括commit_id
+    git log
+
+    git reflog
+
+二、回退版本
+   1.如何回到过去: git reset --hard 过去的commit_id
+   2.如何展望未来：git reset --hard 未来的commit_id
+
+ 三、工作区，暂存区的撤消：  
+    一）放弃工作区修改: git checkout -- 文件
+
+    二）由暂存区返回到工作区 :  git reset HEAD 文件名
+
+    三）撤消工作区的修改: git reset --hard commit_id
